@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav className="fixed z-100">
+    <nav className="fixed z-100 w-full">
       {/* Navbar for mobile */}
-      <div className='flex px-5.5 pt-4 pb-4 flex-row gap-2 justify-between z-10 items-center w-100 bg-[#f9f9f9] md:hidden'>
+      <div className='flex px-5.5 pt-2 pb-2 flex-row gap-2 justify-between z-10 items-center bg-[#f9f9f9] md:hidden'>
         <div className='logo'>
           <Image src="/f110fd4f935cdabd8ef9636a8144267e4494e408.png" alt="Logo" width={100} height={50} />
         </div>
         <div>
-          <button aria-label='Hamburger Icon' className='flex flex-col gap-1 bg-[#151515] p-2;
+          <button aria-label='Hamburger Icon' className='flex flex-col gap-1 bg-[#151515] p-3 rounded-full;
 ]'>
             <span className='block w-6 h-0.5 bg-white'></span>
             <span className='block w-6 h-0.5 bg-white'></span>
