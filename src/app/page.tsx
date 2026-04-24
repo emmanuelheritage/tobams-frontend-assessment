@@ -7,6 +7,8 @@ import { LearningwithourCEO } from "@/components/LearningwithourCEO";
 import { TrainingtheConsultant } from "@/components/TrainingtheConsultant";
 import { BookaConsultant } from "@/components/BookaConsultant";
 import { Testimonials } from "@/components/Testimonials";
+import { Readytobeapart } from "@/components/Readytobeapart";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <TrainingtheConsultant />
       <BookaConsultant />
       <Testimonials />
+      <Readytobeapart />
+      <Footer />
       </main>
   )
 }
