@@ -28,7 +28,7 @@
 5. Open your browser at http://localhost:3000
 
 ## Project Structure
-src/
+``` src/
 ├── app/
 │   ├── layout.tsx
 │   ├── page.tsx
@@ -41,6 +41,7 @@ src/
 │   ├── PersonalisedIndividualTraining.tsx
 │   ├── CapacityDevelopment.tsx
 │   └── Testimonials.tsx
+```
 
 ## Design Decisions & Technical Assumptions
 - Used next/image with fill prop for background images instead of 
